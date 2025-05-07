@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>HääMekk – Värske kala ja kvaliteetsed kalatooted Eestis</title>
+  <meta name="description" content="HääMekk - Eesti juhtiv kalatoodete tootja. Värske kala, suitsutooted, kalamari ja muud mereannid kõigis suuremates jaekettides ja HoReCa sektoris.">
+  <meta name="keywords" content="HääMekk, värske kala, suitsukala, kalatooted, lõhe, forell, Eesti, HoReCa, mereannid">
+  <meta name="author" content="HääMekk">
+
+  <!-- Social Media & Preview -->
+  <meta property="og:title" content="HääMekk – Värske kala ja kalatooted" />
+  <meta property="og:description" content="Kvaliteetsed kalatooted, suitsukala ja kala otse tarnijatelt. Telli veebist või leia meid kauplustes üle Eesti." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/preview.jpg" />
+  <meta property="og:url" content="https://haamekk.ee" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.jpg" />
+
+  <!-- Preload key image -->
+  <link rel="preload" href="logo.jpg" as="image">
+
+  <!-- Styles & Scripts -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts.js"></script>
+</head>
+
+<body>
+<!-- Hidden H1 for SEO -->
+<h1 style="display: none;">HääMekk – Lõhe Art</h1>
+
+<!-- Fixed Header -->
+<header id="top-bar">
+  <div class="top-bar-inner">
+    <div class="top-left"></div>
+    <div class="brand-center">
+      <img src="logo.jpg" alt="HääMekk Logo" class="logo" />
+      <span class="brand-name">HääMekk</span>
+    </div>
+    <div class="top-controls">
+      <div class="language-dropdown">
+        <select onchange="switchLanguage(this.value)">
+          <option value="et">ET</option>
+          <option value="ru">RU</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-toggle" aria-label="Toggle menu">☰</button>
+        <div class="dropdown-menu">
+          <a href="#meist">Meist</a>
+          <a href="#tooted">Tooted</a>
+          <a href="#osta">Kust osta</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="main-content-bg">
+  <!-- Meist -->
+  <section id="meist" class="section">
+    <div class="container">
+      <div class="meist-wrapper">
+        <h2>Meist</h2>
+        <p id="about-text">
+          Häämekk on Eesti kalaturu liider rohkem kui 20 aastat. Meil on oma tootmine ja meie tooted on saadaval kõigis juhtivates jaekaubanduskettides ja HoReCa-sektoris.
+        </p>
+        <p class="about-detail">
+          Meie tooted pärinevad hoolikalt valitud tarnijatelt Norrast, Soomest ja Taanist, tagades alati kõrgeima kvaliteedi ja konkurentsivõimelised hinnad.  
+          Mugavuse huvides pakume temperatuurikontrolliga tarnet kuuel päeval nädalas.
+        </p>
+        <div class="icons">
+          <div class="icon-box"><img src="icons/clock.svg" alt="Aastatepikkune kogemus" /><p>20+ aastat kogemust</p></div>
+          <div class="icon-box"><img src="icons/snowflake.svg" alt="Värskus ja kvaliteet" /><p>Värskus ja kvaliteet</p></div>
+          <div class="icon-box"><img src="icons/chef.svg" alt="HoReCa partner" /><p>Usaldusväärne HoReCa partner</p></div>
+          <div class="icon-box"><img src="icons/fish.svg" alt="Tootmine" /><p>Sertifitseeritud oma tootmine</p></div>
+          <div class="icon-box"><img src="icons/truck.svg" alt="Tarne" /><p>Kiire tarne</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tooted -->
+  <section id="tooted" class="section">
+    <div class="container">
+      <h2>Tooted</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/fillet.jpg" loading="lazy" alt="Jahutatud kalafileed" />
+          <h3>Jahutatud kalafileed</h3>
+          <p>Värske lõhe, forell ja teised fileed valitud kvaliteediga.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/caviar.jpg" loading="lazy" alt="Forelli- ja lõhemari" />
+          <h3>Forelli- ja lõhemari</h3>
+          <p>Valik kvaliteetset marja – nii jahutatud kui ka pastöriseeritud.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/smoked.jpg" loading="lazy" alt="Suitsutooted" />
+          <h3>Suitsutooted</h3>
+          <p>Külm- ja kuumsuitsutatud lõhe ning muud kalatooted.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/other.jpg" loading="lazy" alt="Muud kalatooted" />
+          <h3>Muud kalatooted</h3>
+          <p>Kalapulgad, pastad, vürtsitatud viilud ja muu eripakkumine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kust osta -->
+  <section id="osta" class="section">
+    <div class="container">
+      <div class="osta-wrapper">
+        <h2>Kust osta</h2>
+        <div class="buy-grid">
+          <div class="buy-card">
+            <h3>Telli veebist</h3>
+            <p>Värske kala otse sinuni</p>
+            <a href="https://haamekk.tilda.ws/" target="_blank" class="cta-button" rel="noopener noreferrer">Telli siit</a>
+          </div>
+          <div class="buy-card">
+            <h3>Baltijaama turg</h3>
+            <p>Kopli 1, Tallinn</p>
+            <p>Avatud: E–P 9:00–19:00</p>
+          </div>
+          <div class="buy-card">
+            <h3>Jaeketid</h3>
+            <p>Selver, Prisma, Rimi, Maxima</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt-andmed" class="section">
+    <div class="container contact-inline">
+      <p><strong>Email:</strong> <a href="mailto:info@haamekk.ee">info@haamekk.ee</a></p>
+      <p><strong>Telefon:</strong> <a href="tel:+37212345678">+372 1234 5678</a></p>
+      <p><strong>Aadress:</strong> Tallinn, Eesti</p>
+    </div>
+  </section>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="social-icons">
+      <a href="https://www.instagram.com/haamekk.seafood/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <img src="icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/HaaMekk.Seafood.Market" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <img src="icons/facebook.svg" alt="Facebook" />
+      </a>
+    </div>
+    <p>&copy; 2025 HääMekk. Kõik õigused kaitstud.</p>
+  </div>
+</footer>
+
+</body>
+</html>
