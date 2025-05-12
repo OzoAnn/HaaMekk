@@ -5,6 +5,7 @@ const translations = {
     navTooted: "Tooted",
     navOsta: "Kust osta",
     aboutTitle: "Meist",
+    "main-heading": "HääMekk – Kunst lõhest, värskus merest",
     aboutText: "Häämekk on Eesti kalaturu liider rohkem kui 20 aastat. Meil on oma tootmine ja meie tooted on saadaval kõigis juhtivates jaekaubanduskettides ja HoReCa-sektoris.",
     aboutDetail: "Meie tooted pärinevad hoolikalt valitud tarnijatelt Norrast, Soomest ja Taanist, tagades alati kõrgeima kvaliteedi ja konkurentsivõimelised hinnad. Mugavuse huvides pakume temperatuurikontrolliga tarnet kuuel päeval nädalas.",
     icon1: "20+ aastat kogemust",
@@ -43,6 +44,7 @@ const translations = {
     navTooted: "Products",
     navOsta: "Where to Buy",
     aboutTitle: "About",
+    "main-heading": "HääMekk – The Art of Salmon, Freshness from the Sea",
     aboutText: "Häämekk has been a leader in the Estonian seafood market for over 20 years. We operate our own production and our products are available in all major retail chains and the HoReCa sector.",
     aboutDetail: "We source our products from carefully selected suppliers in Norway, Finland, and Denmark, ensuring the highest quality and competitive prices. For your convenience, we offer temperature-controlled delivery six days a week.",
     icon1: "20+ years of experience",
@@ -81,6 +83,7 @@ const translations = {
     navTooted: "Продукция",
     navOsta: "Где купить",
     aboutTitle: "О нас",
+    "main-heading": "HääMekk – Искусство лосося, свежесть моря",
     aboutText: "Häämekk — лидер на рынке морепродуктов Эстонии более 20 лет. У нас собственное производство, и продукция доступна в ведущих сетях и секторе HoReCa.",
     aboutDetail: "Продукция поступает от тщательно отобранных поставщиков из Норвегии, Финляндии и Дании, обеспечивая высокое качество по конкурентным ценам. Также предлагаем доставку с температурным контролем 6 дней в неделю.",
     icon1: "20+ лет опыта",
@@ -134,6 +137,7 @@ function switchLanguage(lang) {
 
   // Meist section
   document.querySelector("#meist h2").textContent = t.aboutTitle;
+  document.querySelector("#main-heading").textContent = t["main-heading"];
   document.querySelector("#about-text").textContent = t.aboutText;
   document.querySelector(".about-detail").textContent = t.aboutDetail;
 
