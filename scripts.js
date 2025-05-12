@@ -28,7 +28,7 @@ const translations = {
     ],
     contact: {
       email: "info@haamekk.ee",
-      phone: "+372 1234 5678",
+      phone: "+372 5594 0480",
       address: "Tallinn, Eesti"
     },
     footer: "© 2025 HääMekk. Kõik õigused kaitstud.",
@@ -66,7 +66,7 @@ const translations = {
     ],
     contact: {
       email: "info@haamekk.ee",
-      phone: "+372 1234 5678",
+      phone: "+372 5594 0480",
       address: "Tallinn, Estonia"
     },
     footer: "© 2025 HääMekk. All rights reserved.",
@@ -104,7 +104,7 @@ const translations = {
     ],
     contact: {
       email: "info@haamekk.ee",
-      phone: "+372 1234 5678",
+      phone: "+372 5594 0480",
       address: "Таллин, Эстония"
     },
     footer: "© 2025 HääMekk. Все права защищены.",
