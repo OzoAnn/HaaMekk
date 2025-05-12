@@ -23,8 +23,8 @@ const translations = {
     buyTitles: ["Telli veebist", "Baltijaama turg", "Jaeketid"],
     buyDetails: [
       "Värske kala otse sinuni",
-      "Kopli 1, Tallinn\nAvatud: E–P 9:00–19:00",
-      "Selver, Prisma, Rimi, Maxima"
+      "Kopli 1, Tallinn\nAvatud: E–P 9:00–19:00, (alates 16.05.2025)",
+      "Selver, Prisma, Rimi, Maxima, Stockmann jm."
     ],
     contact: {
       email: "info@haamekk.ee",
@@ -61,8 +61,8 @@ const translations = {
     buyTitles: ["Order Online", "Baltic Station Market", "Retail Chains"],
     buyDetails: [
       "Fresh fish delivered to your door",
-      "Kopli 1, Tallinn\nOpen: Mon–Sun 9:00–19:00",
-      "Selver, Prisma, Rimi, Maxima"
+      "Kopli 1, Tallinn\nOpen: Mon–Sun 9:00–19:00, (starting from 16.05.2025)",
+      "Selver, Prisma, Rimi, Maxima, Stockmann and others"
     ],
     contact: {
       email: "info@haamekk.ee",
@@ -99,8 +99,8 @@ const translations = {
     buyTitles: ["Онлайн заказ", "Рынок Балтийского вокзала", "Сети магазинов"],
     buyDetails: [
       "Свежая рыба с доставкой на дом",
-      "Копли 1, Таллин\nОткрыто: Пн–Вс 9:00–19:00",
-      "Selver, Prisma, Rimi, Maxima"
+      "Копли 1, Таллин\nОткрыто: Пн–Вс 9:00–19:00, (начиная с 16.05.2025)",
+      "Selver, Prisma, Rimi, Maxima, Stockmann и другие"
     ],
     contact: {
       email: "info@haamekk.ee",
