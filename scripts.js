@@ -19,7 +19,7 @@ const translations = {
       { title: "Jahutatud kalafileed", desc: "Värske lõhe, forell ja teised fileed valitud kvaliteediga." },
       { title: "Forelli- ja lõhemari", desc: "Valik kvaliteetset marja – nii jahutatud kui ka pastöriseeritud." },
       { title: "Suitsutooted", desc: "Külm- ja kuumsuitsutatud lõhe ning muud kalatooted." },
-      { title: "Muud kalatooted", desc: "Kalapulgad, pastad, vürtsitatud viilud ja muu eripakkumine." }
+      { title: "Muud kalatooted", desc: "Kalapulgad, krevetid, vürtsitatud viilud ja muu eripakkumine." }
     ],
     buyTitles: ["Telli veebist", "Baltijaama turg", "Jaeketid"],
     buyDetails: [
@@ -58,7 +58,7 @@ const translations = {
       { title: "Chilled Fish Fillets", desc: "Fresh salmon, trout, and other fillets of selected quality." },
       { title: "Trout & Salmon Roe", desc: "Selection of high-quality roe — both chilled and pasteurized." },
       { title: "Smoked Products", desc: "Cold and hot smoked salmon and other seafood." },
-      { title: "Other Seafood", desc: "Fish sticks, spreads, marinated slices, and specials." }
+      { title: "Other Seafood", desc: "Fish sticks, shrimps, marinated slices, and specials." }
     ],
     buyTitles: ["Order Online", "Baltic Station Market", "Retail Chains"],
     buyDetails: [
@@ -97,7 +97,7 @@ const translations = {
       { title: "Охлажденные филе", desc: "Свежие филе лосося, форели и других сортов рыбы." },
       { title: "Икра форели и лосося", desc: "Качественная икра: охлажденная и пастеризованная." },
       { title: "Копченая рыба", desc: "Холодного и горячего копчения лосось и морепродукты." },
-      { title: "Прочие морепродукты", desc: "Рыбные палочки, паштеты, маринованные ломтики и другое." }
+      { title: "Прочие морепродукты", desc: "Рыбные палочки, креветки, маринованные ломтики и другое." }
     ],
     buyTitles: ["Онлайн заказ", "Рынок Балтийского вокзала", "Сети магазинов"],
     buyDetails: [
